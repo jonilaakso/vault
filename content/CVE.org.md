@@ -3,4 +3,6 @@ title: CVE.org
 description: Catalog of publicly disclosed cybersecurity vulnerabilities.
 ---
 
-[https://www.cve.org/](Link to CVE.org)
+Cve.org contains a catalog of publicly disclosed cybersecurity vulnerabilities.
+
+[Link to cve.org](https://www.cve.org/)
