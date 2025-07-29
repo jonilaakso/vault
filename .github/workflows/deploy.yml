@@ -5,7 +5,7 @@ on:
     branches:
       - v4
 env:
-  THEME_NAME: tokyo-night
+  THEME_NAME: tokyo-night-storm
  
 permissions:
   contents: read
