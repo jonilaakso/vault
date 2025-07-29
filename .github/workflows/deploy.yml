@@ -5,7 +5,7 @@ on:
     branches:
       - v4
 env:
-  THEME_NAME: notation-2
+  THEME_NAME: kanagawa
  
 permissions:
   contents: read
