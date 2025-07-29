@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to my Vault of knowledge
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This vault is my "second brain", a collection of notes that I have gathered about various topics. 
