@@ -1,4 +1,7 @@
-
+---
+title: ICT Dictionary
+description: Dictionary of ICT related acronyms
+---
 
 ## A
 
