@@ -5,7 +5,7 @@ on:
     branches:
       - v4
 env:
-  THEME_NAME: tokyo-night-storm
+  THEME_NAME: obsidian-nord
  
 permissions:
   contents: read
