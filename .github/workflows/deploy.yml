@@ -5,7 +5,7 @@ on:
     branches:
       - v4
 env:
-  THEME_NAME: obsidian-nord
+  THEME_NAME: notation-2
  
 permissions:
   contents: read
