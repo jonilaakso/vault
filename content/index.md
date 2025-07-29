@@ -2,4 +2,4 @@
 title: Welcome to my Vault of knowledge
 ---
 
-This vault is my "second brain", a collection of notes that I have gathered about various topics. 
+This vault is my "second brain", an collection of notes and thoughts that I have gathered about various topics. 
