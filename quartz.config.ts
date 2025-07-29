@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Library of Knowledge",
+    pageTitle: "Vault of Knowledge",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
