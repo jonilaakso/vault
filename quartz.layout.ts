@@ -44,7 +44,10 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.ConditionalRender({
+      component: Component.TableOfContents(),
+      condition: (page) => page.fileData.slug !== "index",
+    })),
     Component.Backlinks(),
     Component.DesktopOnly(Component.ConditionalRender({
       component: Component.RecentNotes(),
