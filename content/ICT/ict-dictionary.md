@@ -16,7 +16,7 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| BYOD | Bring Your Own Device |
 
 ## C
 
@@ -41,7 +41,8 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| EDR | Endpoint Detection and Response |
+
 
 ## F
 
@@ -53,7 +54,9 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| GDPR | General Data Protection Regulation |
+| GPO | Group Policy Object | 
+| GUI | Graphical User Interface |
 
 ## H
 
@@ -76,7 +79,8 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| JSON | Javascript Object Notation |
+| JWT | JSON Web Token |
 
 ## K
 
@@ -94,7 +98,9 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| MFA | Multi-Factor Authentication |
+| MDM | Mobile Device Management |
+| MITM | Man in the Middle 
 
 ## N
 
@@ -125,7 +131,7 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| RDP | Remote Desktop Protocol |
 
 ## S
 
@@ -172,7 +178,7 @@ tags: ICT
 
 | Acronym | Meaning |
 |--|--|
-| | |
+| XSS | Cross-Site Scripting  |
 
 ## Y
 
