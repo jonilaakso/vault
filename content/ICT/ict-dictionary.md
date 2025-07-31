@@ -5,11 +5,11 @@ description: Dictionary of ICT related acronyms
 
 ## A
 
-| Acronym | Meaning |
-|--|--|
-| AD DS | Active Directory Domain Services |
-| AIP | Azure Information Protection |
-| APT | Advanced Persistent Threat |
+| Acronym | Meaning                          |
+| ------- | -------------------------------- |
+| AD DS   | Active Directory Domain Services |
+| AIP     | Azure Information Protection     |
+| APT     | Advanced Persistent Threat       |
 
 ## B
 
@@ -19,12 +19,12 @@ description: Dictionary of ICT related acronyms
 
 ## C
 
-| Acronym | Meaning |
-|--|--|
-| CA | Certification Authority |
-| CDN | Content Delivery Network |
-| CDS | Cross Domain Solution |
-| CISO | Chief Information Security Officer | 
+| Acronym | Meaning                            |     |
+| ------- | ---------------------------------- | --- |
+| CA      | Certification Authority            |     |
+| [[CDN]] | [[CDN|Content Delivery Network]]          |     |
+| CDS     | Cross Domain Solution              |     |
+| CISO    | Chief Information Security Officer |     |
 
 ## D
 
