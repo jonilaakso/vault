@@ -137,7 +137,7 @@ tags: ICT
 | SMB | Server Message Block |
 | SOC | Security Operations Center |
 | SOAR | Security Orchestration, Automation and Response | 
-| SPF | Sender Pocicy Framework | 
+| SPF | Sender Policy Framework | 
 
 
 ## T
