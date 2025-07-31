@@ -5,7 +5,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.MobileOnly(Component.Graph()),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jonilaakso",
@@ -40,13 +42,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.ConditionalRender({
+    Component.DesktopOnly(Component.ConditionalRender({
       component: Component.RecentNotes(),
       condition: (page) => page.fileData.slug == "index",
-    })
+    }))
   ],
 }
 
@@ -67,7 +69,5 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [
-    Component.Graph(),
-  ],
+  right: [],
 }
