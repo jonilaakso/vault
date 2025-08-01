@@ -43,7 +43,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(
+      Component.Graph({
+        localGraph:{
+          depth: 3, // how many hops of notes to display
+          }
+        }
+      )),
     Component.DesktopOnly(Component.ConditionalRender({
       component: Component.TableOfContents(),
       condition: (page) => page.fileData.slug !== "index",
