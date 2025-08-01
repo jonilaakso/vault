@@ -6,7 +6,11 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.MobileOnly(Component.Graph()),
+    Component.MobileOnly(Component.Graph({
+        localGraph:{
+          depth: 3, // how many hops of notes to display
+          }
+        })),
   ],
   footer: Component.Footer({
     links: {
