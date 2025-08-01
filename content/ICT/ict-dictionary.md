@@ -8,8 +8,8 @@ tags: ICT
 
 | Acronym | Meaning                          |
 | ------- | -------------------------------- |
-| AD DS   | Active Directory Domain Services |
-| AIP     | Azure Information Protection     |
+| [[AD DS]]   | [[AD DS|Active Directory Domain Services]] |
+| [[AIP]]     | [[AIP|Azure Information Protection]]     |
 | APT     | Advanced Persistent Threat       |
 
 ## B

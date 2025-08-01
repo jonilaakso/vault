@@ -7,7 +7,7 @@ tags: network, web
 
 # What is a Content Delivery Network? 
 
-A Content Delivery Network (CDN) is a system of distributed servers that work together to deliver web content to the end users, without long loading times.
+A Content Delivery Network (CDN) is a system of distributed servers that work together to deliver web content to the end users quickly. 
 
 ## CDN caches content
 
