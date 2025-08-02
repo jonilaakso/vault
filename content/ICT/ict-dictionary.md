@@ -20,12 +20,12 @@ tags: ICT
 
 ## C
 
-| Acronym | Meaning                            |     |
-| ------- | ---------------------------------- | --- |
-| CA      | Certification Authority            |     |
-| [[CDN]] | [[CDN|Content Delivery Network]]          |     |
-| CDS     | Cross Domain Solution              |     |
-| CISO    | Chief Information Security Officer |     |
+| Acronym | Meaning                            |   
+| ------- | ---------------------------------- | 
+| CA      | Certification Authority            |     
+| [[CDN]] | [[CDN|Content Delivery Network]]   |     
+| CDS     | Cross Domain Solution              |     
+| CISO    | Chief Information Security Officer |   
 
 ## D
 
@@ -107,7 +107,7 @@ tags: ICT
 | Acronym | Meaning |
 |--|--|
 | NDR | Network Detection and Response |
-| NOC | Network Operations Center |
+| [[NOC]] | [[NOC|Network Operations Center]]
 
 ## O
 
@@ -141,7 +141,7 @@ tags: ICT
 | SIEM | Security Information and Event Management |
 | SNMP | Simple Network Management Protocol |
 | SMB | Server Message Block |
-| SOC | Security Operations Center |
+| [[SOC]] | [[SOC|Security Operations Center]] |
 | SOAR | Security Orchestration, Automation and Response | 
 | SPF | Sender Policy Framework | 
 
