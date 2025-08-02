@@ -1,5 +1,5 @@
 ---
-title: ICT Dictionary
+title: 000 - ICT Dictionary
 description: Dictionary of ICT related acronyms
 tags: ICT
 ---
@@ -8,22 +8,22 @@ tags: ICT
 
 | Acronym | Meaning                          |
 | ------- | -------------------------------- |
-| [[AD DS]]   | [[AD DS|Active Directory Domain Services]] |
-| [[AIP]]     | [[AIP|Azure Information Protection]]     |
-| APT     | Advanced Persistent Threat       |
+| [[AD DS]]   | [Active Directory Domain Services](AD-DS) |
+| [[AIP]]     | [Azure Information Protection](AIP)     |
+| [[APT]]     | [Advanced Persistent Threat](APT)       |
 
 ## B
 
 | Acronym | Meaning |
 |--|--|
-| BYOD | Bring Your Own Device |
+| [[BYOD]] | [Bring Your Own Device](BYOD.md) |
 
 ## C
 
 | Acronym | Meaning                            |   
 | ------- | ---------------------------------- | 
 | CA      | Certification Authority            |     
-| [[CDN]] | [[CDN|Content Delivery Network]]   |     
+| [[CDN]] | [Content Delivery Network](CDN)  |     
 | CDS     | Cross Domain Solution              |     
 | CISO    | Chief Information Security Officer |   
 
@@ -107,7 +107,7 @@ tags: ICT
 | Acronym | Meaning |
 |--|--|
 | NDR | Network Detection and Response |
-| [[NOC]] | [[NOC|Network Operations Center]]
+| [[NOC]] | [Network Operations Center](NOC) | 
 
 ## O
 
@@ -140,8 +140,8 @@ tags: ICT
 | SaaS | Software as a Service | 
 | SIEM | Security Information and Event Management |
 | SNMP | Simple Network Management Protocol |
-| SMB | Server Message Block |
-| [[SOC]] | [[SOC|Security Operations Center]] |
+| [[SMB]] | [Server Message Block](SMB.md) |
+| [[SOC]] | [Security Operations Center](SOC) |
 | SOAR | Security Orchestration, Automation and Response | 
 | SPF | Sender Policy Framework | 
 

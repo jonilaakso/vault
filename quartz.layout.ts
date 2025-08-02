@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.MobileOnly(Component.Graph({
         localGraph:{
-          depth: 3, // how many hops of notes to display
+          depth: 1, // how many hops of notes to display
           }
         })),
   ],
@@ -50,7 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.Graph({
         localGraph:{
-          depth: 3, // how many hops of notes to display
+          depth: 1, // how many hops of notes to display
           }
         }
       )),
