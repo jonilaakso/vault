@@ -2,7 +2,7 @@
 title: Server Message Block (SMB)
 description: SMB (Server Message Block) is a protocol that enables file, printer, and resource sharing between computers on a network.
 draft: no
-tags:
+tags: windows
 ---
 # What is SMB?
 SMB (Server Message Block) is a network protocol that allows computers to share files, printers, and other resources over a network. It enables users to access remote files as if they were on their local machine, handling authentication and permissions in the background.
