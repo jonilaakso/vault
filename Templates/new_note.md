@@ -1,7 +1,7 @@
 ---
 title: <title here>
 description: <description here>
-draft: yes
+draft: true
 tags:
 publish: false
 ---
