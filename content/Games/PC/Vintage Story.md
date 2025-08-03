@@ -1,9 +1,8 @@
 ---
 title: Vintage Story
 description: Minecraft reinvented
-draft: true
+draft: false
 tags: pc, games
-publish: false
 ---
 
 

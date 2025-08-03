@@ -1,9 +1,8 @@
 ---
 title: Ultima Online Outlands
 description: Ultima online Outlands
-draft: true
+draft: false
 tags: pc, games
-publish: false
 ---
 
 
