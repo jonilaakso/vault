@@ -1,10 +1,10 @@
 ---
 title: Digital Garden
 description: A place to grow and tend your notes
-draft: no
+draft: false
 tags: digitalgarden, notes, writing
 ---
-![Garden, designed by freepik](/static/images/footpath-beautiful-arch-flowers-plants.jpg) 
+![Garden, designed by freepik](/images/footpath-beautiful-arch-flowers-plants.jpg) 
 
 
 **References:**
