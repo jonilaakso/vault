@@ -15,7 +15,7 @@ I tried to use Rofi drun with my Fedora linux and ran into a problem. I made a s
 
 ![Setting rofi command](../images/rofi_command.png)
 
-After those steps rofi should focus to the window.
+After these steps rofi should focus to the window.
 
 
 
