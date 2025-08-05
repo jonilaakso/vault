@@ -1,7 +1,7 @@
 ---
 title: Using rofi with shortcut in Fedora 42
 description: Setting up shortcut key
-draft: true
+draft: false
 tags:
 ---
 # What and why?
@@ -13,7 +13,7 @@ I tried to use Rofi drun with my Fedora linux and ran into a problem. I made a s
 2. Make new shortcut, call it whatever you like and write `rofi -show drun -normal-window`
 3. Insert shortcut that you want to use
 
-![Setting rofi command](/images/rofi-command.png)
+![Setting rofi command](../images/rofi_command.png)
 
 After those steps rofi should focus to the window.
 
