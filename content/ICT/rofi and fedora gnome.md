@@ -5,7 +5,7 @@ draft: false
 tags: linux, fedora, gnome
 ---
 # What and why?
-I tried to use Rofi drun with my Fedora linux and ran into a problem. I made a shortcut key that run `rofi -show drun` -> after pressing the key rofi starts, but I just could not write anything, it didn't focus the window.
+I tried to use Rofi drun with my Fedora linux and ran into a problem. I created a shortcut key that runs `rofi -show drun` -> after pressing the key rofi starts, but I just could not write anything, it didn't focus the window.
 
 # How to fix it?
 
