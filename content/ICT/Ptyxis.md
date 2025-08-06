@@ -10,10 +10,7 @@ Ptyxis is default gnome terminal on Fedora workstation 42.
 [According to phoronix.com](https://www.phoronix.com/news/GNOME-Prompt-Terminal-Ptyxis)Ptyxis is formerly known as Prompt.
 
 
-Related notes: 
-[[ptyxis terminal background transparency]]
-
 **References:**
 
-https://fedoraproject.org/
-https://www.phoronix.com/news/GNOME-Prompt-Terminal-Ptyxis
+* https://fedoraproject.org/
+* https://www.phoronix.com/news/GNOME-Prompt-Terminal-Ptyxis

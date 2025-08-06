@@ -11,5 +11,4 @@ tags: terminal, linux, fedora, gnome
 Change the opacity number from .85 to your desired number.
 
 **References:**
-
-https://www.reddit.com/r/gnome/comments/1fwubwy/new_gnome_terminal_471/
+* https://www.reddit.com/r/gnome/comments/1fwubwy/new_gnome_terminal_471/
