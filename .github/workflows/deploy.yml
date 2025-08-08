@@ -32,37 +32,7 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
-      # Commit and push submodule changes
-      - name: Commit & push submodule updates
-        run: |
-          git submodule foreach --recursive '
-            branch=$(git config -f $toplevel/.gitmodules submodule.$name.branch || echo main)
-            echo "Updating submodule $name on branch $branch"
-            git checkout $branch
-            git add -A
-            if ! git diff --cached --quiet; then
-              git config user.name "github-actions[bot]"
-              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-              git commit -m "Automated submodule update from parent workflow"
-              git push origin $branch
-            fi
-          '
-
-          # Update parent repo pointer
-          git add .
-          if ! git diff --cached --quiet; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "Update submodule pointers"
-            git push
-          fi
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
-
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
