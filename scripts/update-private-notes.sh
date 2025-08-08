@@ -4,7 +4,7 @@ set -x  # Print commands for debugging
 
 
 # Push changes in submodule
-cd content/Private-Notes
+cd ../content/Private-Notes
 branch=$(git rev-parse --abbrev-ref HEAD)
 
 # Ensure we are on the right branch (default main)
