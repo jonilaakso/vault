@@ -29,6 +29,10 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm ci
+
+      - name: Update submodule Private-Notes
+        run: ./update-private-notes-sh
+
       - name: Build Quartz
         run: npx quartz build
 
