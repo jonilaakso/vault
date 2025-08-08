@@ -8,14 +8,21 @@ npx quartz sync
 
 # Push changes in submodule
 cd ./content/Private-Notes
-branch=$(git rev-parse --abbrev-ref HEAD)
 
-# Ensure we are on the right branch (default main)
+branch=$(git rev-parse --abbrev-ref HEAD)
 if [ "$branch" = "HEAD" ]; then
   branch="main"
   git checkout "$branch"
 fi
 
+# Fetch and merge latest changes from remote branch
+git fetch origin "$branch"
+git merge --ff-only origin/"$branch" || {
+  echo "Fast-forward merge failed; please resolve manually."
+  exit 1
+}
+
+# Now add, commit, and push local changes
 git add -A
 if ! git diff --cached --quiet; then
   git config user.name "github-actions[bot]"
@@ -23,6 +30,5 @@ if ! git diff --cached --quiet; then
   git commit -m "Automated update from Quartz sync"
   git push origin "$branch"
 fi
-
 
 echo "Vault Updated!"
