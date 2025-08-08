@@ -1,0 +1,3 @@
+[submodule "content/Private-Notes"]
+	path = content/Private-Notes
+	url = https://github.com/jonilaakso/vault-privatenotes.git
