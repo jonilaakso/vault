@@ -3,8 +3,11 @@ set -e  # Exit immediately if a command fails
 set -x  # Print commands for debugging
 
 
+# run quartz sync to update the main repo
+npx quartz sync
+
 # Push changes in submodule
-cd ../content/Private-Notes
+cd ./content/Private-Notes
 branch=$(git rev-parse --abbrev-ref HEAD)
 
 # Ensure we are on the right branch (default main)
@@ -21,3 +24,5 @@ if ! git diff --cached --quiet; then
   git push origin "$branch"
 fi
 
+
+echo "Vault Updated!"
