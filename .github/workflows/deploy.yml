@@ -34,7 +34,7 @@ jobs:
         run: npx quartz build
 
       - name: Update submodule Private-Notes
-        run: ./update-private-notes-sh
+        run: ./update-private-notes.sh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
