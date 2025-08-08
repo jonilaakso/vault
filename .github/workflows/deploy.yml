@@ -24,17 +24,30 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
           submodules: recursive # Fetch submodules
-      - name: Update submodules
+      - name: Update submodules and push changes
         run: |
-          git submodule update --remote --merge
+          git submodule foreach --recursive '
+            branch=$(git config -f $toplevel/.gitmodules submodule.$name.branch || echo main)
+            echo "Processing submodule: $name on branch $branch"
+            git checkout $branch
+            git add -A
+            if ! git diff --cached --quiet; then
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git commit -m "Update from parent workflow"
+              git push origin $branch
+            fi
+          '
+          
+          # Update submodule pointers in parent repo
           git add .
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore: update submodules [skip ci]"
+            git commit -m "Update submodule pointers"
             git push
           fi
-      - uses: actions/setup-node@v4
+- uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Install Dependencies
