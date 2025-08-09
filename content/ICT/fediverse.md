@@ -11,6 +11,8 @@ I quit all social media (except LinkedIn and YouTube) a while ago. The main reas
 # What is the Fediverse
 The Fediverse is basically a bunch of separate, open-source social media platforms that can still talk to each other. Instead of everyone being stuck on one company’s server, there are lots of independent ones (called “instances”) connected through a common protocol like ActivityPub. Think Mastodon for tweets, Pixelfed for photos, or PeerTube for videos. You can think of it as kind of like email, where you can be on different providers (e.g. Gmail or Outlook) but still communicate.
 
+You can view popular Fediverse alternatives to commercial social media from here: https://jointhefediverse.net/join?lang=en-us
+
 # Meta's Threads has joined the Fediverse
 One really interesting fact is that Meta has connected Threads to the Fediverse. In short, a Threads user can turn on sharing to the Fediverse. Once sharing is activated, Fediverse users can search for and follow your content.
 
