@@ -19,3 +19,4 @@ One really interesting fact is that Meta has connected Threads to the Fediverse.
 * https://about.fb.com/news/2024/06/what-is-the-fediverse/
 * https://en.wikipedia.org/wiki/Fediverse
 * https://fediverse.party/
+* https://jointhefediverse.net/learn?lang=en-us
