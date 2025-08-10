@@ -13,8 +13,11 @@ The Fediverse is basically a bunch of separate, open-source social media platfor
 
 You can view popular Fediverse alternatives to commercial social media from here: https://jointhefediverse.net/join?lang=en-us
 
-# Meta's Threads has joined the Fediverse
-One really interesting fact is that Meta has connected Threads to the Fediverse. In short, a Threads user can turn on sharing to the Fediverse. Once sharing is activated, Fediverse users can search for and follow your content.
+# Meta and Medium has joined the Fediverse
+One really interesting fact is that Meta has connected Threads to the Fediverse. In short, a Threads user can turn on sharing to the Fediverse. Once sharing is activated, Fediverse users can search for and follow your content. 
+
+Medium has made their own Mastodon instance me.dm. You can learn more about me.dm from [here](https://help.medium.com/hc/en-us/articles/12101044403095-About-me-dm-Medium-s-Mastodon-instance)
+
 
 ---
 **References:**
@@ -22,3 +25,4 @@ One really interesting fact is that Meta has connected Threads to the Fediverse.
 * https://en.wikipedia.org/wiki/Fediverse
 * https://fediverse.party/
 * https://jointhefediverse.net/learn?lang=en-us
+* https://help.medium.com/hc/en-us/articles/12101044403095-About-me-dm-Medium-s-Mastodon-instance
