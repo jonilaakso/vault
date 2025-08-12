@@ -11,7 +11,7 @@ This site is built with [Quartz 4](https://quartz.jzhao.xyz/)
 
 I  use [Obsidian](https://obsidian.md/) for writing the notes and host the vault with [Github pages](https://docs.github.com/en/pages)
 
-For my notes that I don't want to upload publicly, I have created private github repository that I have added as [git submodule.](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and I have a bash-script to update both locally and push to github. 
+For my notes that I don't want to upload publicly, I have created private github repository that I have added as [git submodule.](https://git-scm.com/book/en/v2/Git-Tools-Submodules) For deploy, I have a bash-script to update both locally and push to Github. 
 
 update-vault.sh
 ```bash
