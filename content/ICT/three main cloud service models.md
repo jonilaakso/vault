@@ -1,9 +1,11 @@
 ---
 title: Three main cloud service models
-description: The main three cloud service models are: IaaS, Paas and SaaS.
+description: The main three cloud service models are IaaS, Paas and SaaS
 draft: false
 tags: cloudcomputing, cloud, ict
 ---
+
+# Three main cloud service models
 
 The main three cloud service models are: IaaS, Paas and [[SaaS]].
 
