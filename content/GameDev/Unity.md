@@ -7,7 +7,7 @@ tags: gamedev, editor, game, 2d, 3d
 
 # Unity Game Editor
 
-I installed unity editor to my linux desktop. 
+Living document about my voyage to Unity.
 
 ## Unity training
 
@@ -15,7 +15,7 @@ I installed unity editor to my linux desktop.
 [Unity Pathways](https://learn.unity.com/pathways)
 
 ## Vscodium as a C#-script editor
-[[VSCodium]]
+[[VSCodium]] works with unity C#-editor, but the problem is (for me at least), that there is no IntelliSense. So I changed to [[VSCode]]
 
 ---
 **References:**
