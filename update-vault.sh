@@ -2,6 +2,7 @@
 set -e  # Exit immediately if a command fails
 set -x  # Print commands for debugging
 
+cd "$(dirname "$0")" || { echo "Hakemistoa ei löytynyt!"; exit 1; }
 
 # run quartz sync to update the main repo
 npx quartz sync
